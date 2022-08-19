@@ -1,0 +1,95 @@
+.conteiner-contacto{
+    background: #013a63;
+    padding: 0 0 100px 0;
+}
+
+.conteiner-contacto h2{
+    color: white;
+    font-size: 43px;
+    font-family: 'play', sans-serif;
+    text-align: center;
+    padding: 100px 0 50px 0;
+}
+
+.conteiner-contacto p{
+    color: white;
+    font-size: 20px;
+    font-family: 'play', sans-serif;
+    margin: 0 40px;
+
+}
+
+.conteiner-contacto a{
+    display: block;
+    width: 150px;
+    margin: 20px 0 0 35px;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    font-family: 'play', sans-serif;  
+    padding:10px;
+    background-color: #4e859c;
+    border-radius: 10px;
+    text-decoration: none;
+      
+}
+.conteiner-contacto a:hover{
+    background-color: #00b1fd;
+    transition: all 2s;
+    transform: translateY(-5px);
+    
+    
+}
+.conteiner-contacto i{
+    color: rgba(0, 0, 0, 0.847);
+}
+
+/*formulario*/
+
+.conteiner-contacto .card{
+    display: flex;
+    margin: 100px auto;  
+    
+    width: 500px;
+    background: #01497c;
+    
+}
+.conteiner-contacto .card div{
+    margin: 20px 0;
+}
+.conteiner-contacto label{
+    font-family: 'play', sans-serif;
+    font-size: 18px;
+    color: white;
+}
+
+.conteiner-contacto .card p{
+    text-align: center;
+}
+
+
+
+
+/*Responsive*/
+
+@media (max-width:900px){
+    
+    #contacto{
+        font-size: 25px;
+        padding: 50px 0;
+        
+    }
+
+    .card .card-body{
+        height: 300px;
+    }
+    .conteiner-contacto .card{
+        height: 500px;
+        margin-top: 30px;
+    }
+
+    .conteiner-contacto p{
+        font-size: 18px;
+    }
+    
+}

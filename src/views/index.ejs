@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <%-include ('./partials/head.ejs')%>
+</head>
+
+<body>
+    <header>
+        <%-include ('./partials/nav.ejs')%>
+    </header>
+    <main>
+        <%-include ('./partials/card1.ejs')%> <!--card1-->
+        <a href="" id="up"><i class="fa-solid fa-circle-up"></i></a> <!--volver a la nav-->
+        <style> 
+            #up{
+                position: fixed;
+                bottom: 30px;
+                right: 20px;
+                color: #ffffff94;
+                font-size: 40px;
+                cursor: pointer;
+                transition: all .3s ease-in-out;
+            }
+            #up:hover{
+                color: #fff;
+                transform: scale(1.2);
+            }
+          
+        </style>
+        
+        <!--Uso de ScrollReveal-->
+        <script src="https://unpkg.com/scrollreveal"></script>
+       
+        <%-include ('./partials/card2.ejs')%> <!--card2-->
+        <%-include ('./partials/proyectos.ejs')%> <!--proyectos-->
+        <%-include ('./partials/contacto.ejs')%> <!--contact-->
+    </main>
+    
+
+    <footer>
+        <%-include('./partials/footer.ejs')%>
+    </footer>
+
+    
+    
+
+
+
+</body>
+</html>

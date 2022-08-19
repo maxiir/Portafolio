@@ -1,0 +1,22 @@
+.conteiner-footer{
+    display:flex;
+    justify-content: center;
+    
+    background: #012a4a;
+    height: 100px;
+}
+.conteiner-footer p{
+    padding: 30px 0;
+    color: rgba(255, 255, 255, 0.695);
+    text-align: center;
+    font-family: 'play', sans-serif;
+}
+
+/*Responsive*/
+
+@media(max-width:900px){
+    
+    .conteiner-footer p{
+        font-size: 15px;
+    }
+}

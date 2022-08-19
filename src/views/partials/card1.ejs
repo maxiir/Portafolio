@@ -1,0 +1,64 @@
+<link rel="stylesheet" href="/css/card1.css" />
+
+<div class="conteiner-card">
+  <div class="card">
+    <div class="img-perfil"><img src="/img/perfil.jpeg" alt="" /></div>
+    <div class="card-text">
+      <h1>Hola soy Maxi!<br /><span class="typed"></span></h1>
+      <p>
+        Hace un tiempo descubrí lo que es la programación, por lo cual, desde ya
+        3 años que realizo tanto proyectos propios como para terceros, enfocados
+        en el desarrollo web. <br />
+        <br />
+        A diario me capacito sobre nuevas tendencias en el mundo tech logrando
+        fortalecer cada vez mas mis conocimientos y aprendiendo nuevas
+        herramientas.
+      </p>
+    </div>
+  </div>
+</div>
+
+<!--uso de libreria typed.js-->
+<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+
+<script>
+  const typed = new Typed(".typed", {
+    //uso de libreria typed.js --primer parametro es el selector del elemento que se va a modificar, segundo parametro es un objeto con las opciones de la libreria--
+    strings: [
+      '<i class="animacion"> Bienvenido a mi portafolio </i>',
+      '<i class="invito"> Te invito a recorrerlo</i>',
+    ],
+    cursorChar: "|",
+    typeSpeed: 50, //velocidad de la animacion
+    startDelay: 300, //tiempo de espera antes de empezar la animacion
+    backSpeed: 75, //velocidad para borrar letras
+    loop: true, //repetir la animacion
+  });
+</script>
+
+<!--estilos para la animacion-->
+<style>
+  .animacion {
+    /*animacion typed.js*/
+    font-style: normal;
+    color: #0192fa;
+    font-size: 37px;
+  }
+  .invito {
+    /*animacion typed.js*/
+    font-style: normal;
+    color: #0192fa;
+    font-size: 35px;
+  }
+
+  /*Responsive*/
+  @media (max-width: 900px) {
+    .animacion{
+      font-size: 30px;
+    }
+    .invito {
+      height: 400px;
+      font-size: 25px;
+    }
+  }
+</style>

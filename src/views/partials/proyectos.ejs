@@ -1,0 +1,60 @@
+<link rel="stylesheet" href="/css/proyectos.css">
+
+<div class="conteiner-proyectos">
+    <h2 id="proyectos"><span class="typed2"></span></h2>
+    <div class="card-proyectos">
+
+        <div class="proyecto1">
+            <h2>Serviglass</h2>
+            <a href="https://serviglasstw.web.app/"><img src="/img/proyectos/serviglass.jpg" alt="proyecto-serviglass"></a>
+            <p>Sitio desarrollado para un emprendedor dedicado al servicio técnico de reparación de celulares</p>
+            
+        </div>
+        <div class="proyecto2">
+            <h2>mi proyecto</h2>
+            <img src="/img/proyectos/example.jpg" alt="">
+            <p>Descripcion del proyecto</p>            
+        </div>
+        <div class="proyecto3">
+            <h2>mi proyecto</h2>
+            <img src="/img/proyectos/example.jpg" alt="">
+            <p>Descripcion del proyecto</p>
+            
+        </div>
+        
+
+    </div>
+</div>
+
+<!--scripts typed-->
+
+<script>
+    const typed2 = new Typed('.typed2', {
+        strings: ['<i class="animacion2"> Proyectos </i>'],
+        cursorChar: '|',
+        typeSpeed: 50,
+        startDelay: 300,
+        backSpeed: 75,
+        loop: true
+    })
+</script>
+<style>
+    .animacion2 {
+        font-size: 45px;
+        color: white;
+        font-style: normal;
+        text-align: center;
+        font-family: 'play', sans-serif;
+        
+    }
+    /*Responsive*/
+    @media screen and (max-width: 900px) {
+        .animacion2 {
+            font-size: 25px;
+        }
+    }
+</style>
+
+<script>
+    ScrollReveal().reveal('.card-proyectos', {delay:500});
+</script>
