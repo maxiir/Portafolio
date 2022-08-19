@@ -90,7 +90,7 @@ nav a:hover {
     height: 400px;
     padding: 0;
     transform: translateX(-900px);
-    background-color: rgba(25, 35, 0, 0.904);
+    background-color: rgba(13, 13, 13, 0.904);
     transition: all 2s;
     z-index: 1;
     
