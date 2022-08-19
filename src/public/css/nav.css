@@ -56,11 +56,13 @@ nav a:hover {
 
   nav .nav-menu{
     position: absolute;
+    
   } 
   #btn-menu {
     
     font-size: 30px;
     margin: 0px 10px;
+    
   }
   nav {
     display: flex;
@@ -78,7 +80,7 @@ nav a:hover {
   nav .enlaces i {
 
     margin-left: 5px;
-    font-size: 45px;
+    font-size: 25px;
   }
   
   
@@ -90,14 +92,16 @@ nav a:hover {
     height: 400px;
     padding: 0;
     transform: translateX(-900px);
-    background-color: rgba(25, 35, 0, 0.904);
+    background-color: rgba(13, 13, 13, 0.904);
     transition: all 2s;
     z-index: 1;
+    
     
   }
   nav ul li a{
     font-size: 15px;
     margin: 0 0px;
+    width: 100%;
     
     
   }
@@ -107,8 +111,18 @@ nav a:hover {
   }
  
   .show {
-    transform: translate(-150%, 0px);
-    transition: all 3s;
+    transform: translateX(-150%);
+    transition: all .5s;
+    
+  }
+  
+  
+}
+@media (max-width: 680px) {
+  nav{
+    position: fixed;
+    z-index: 1;
+    /*FIX UP SIDEBAR*/
   }
   
 }
