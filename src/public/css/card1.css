@@ -67,20 +67,24 @@
         display: flex;
         justify-content: center;
         height: 150vh;
+        
+        
     }
     .conteiner-card .card{
         width: 600px;
         height: 700px;
         grid-template-columns: 1fr;
         grid-template-rows: 1fr 1fr;
-        margin: 0 300px 0 0;
-        transform: translate(30%, -10%);
+        
+        
+        transform: translateY(-10%);
     }
     .img-perfil img{
         width: 200px;
         height: 200px;
         margin: 40px 30px;
-        transform: translateX(100px);
+        transform: translateX(60%);
+        
     }
     .card h1{
         font-size: 20px;
@@ -95,4 +99,8 @@
         position: absolute;
         transform: translateY(-30px);
     }
+}
+
+@media(max-width:680px){
+
 }
