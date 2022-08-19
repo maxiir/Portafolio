@@ -102,5 +102,123 @@
 }
 
 @media(max-width:680px){
+    .conteiner-card{
+        display: flex;
+        justify-content: center;
+        height: 150vh;
+        
+        
+    }
+    .conteiner-card .card{
+        width: 500px;
+        height: 600px;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr;
+        
+        
+        transform: translateY(-10%);
+    }
+    .img-perfil img{
+        width: 150px;
+        height: 150px;
+        margin: 40px 30px;
+        transform: translateX(60%);
+        
+    }
+    .card h1{
+        font-size: 20px;
+        
+        
+    }
+    .card p{
+        font-size: 15px;
 
+    }
+    .card-text p{
+        position: absolute;
+        transform: translateY(-30px);
+    }
+}
+@media(max-width:530px){ /*ver*/
+    .conteiner-card{
+        display: flex;
+        justify-content: center;
+        height: 150vh;
+        
+        
+    }
+    .conteiner-card .card{
+        width: 400px;
+        height: 500px;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr;
+        
+        
+        transform: translateY(-10%);
+    }
+    .img-perfil img{
+        width: 100px;
+        height: 100px;
+        margin: 40px 30px;
+        transform: translateX(60%);
+        
+    }
+    .card h1{
+        font-size: 20px;
+        
+        
+    }
+    .card p{
+        font-size: 15px;
+
+    }
+    .card-text p{
+        position: absolute;
+        transform: translateY(-30px);
+    }
+}
+
+@media(max-width:450px){
+    .conteiner-card{
+        display: flex;
+        justify-content: center;
+        height: 150vh;
+        
+        
+    }
+    .conteiner-card .card{
+        width: 300px;
+        height: 600px;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr;
+        
+        
+        transform: translateY(-10%);
+    }
+    .img-perfil img{
+        width: 100px;
+        height: 100px;
+        margin: 40px 30px;
+        transform: translateX(30%);
+        
+    }
+    .card h1{
+        font-size: 20px;
+        transform: translateY(40px);
+        
+        
+    }
+    .card p{
+        font-size: 15px;
+        margin: 120px 5px 0 5px;
+        
+    }
+    .card-text p{
+        position: absolute;
+        transform: translateY(10px);
+    }
+    .card-text{
+        transform: translateY(-150px);
+    }
+   
 }
