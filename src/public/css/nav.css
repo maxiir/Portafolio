@@ -114,10 +114,11 @@ nav a:hover {
     transform: translateX(-150%);
     transition: all .5s;
     
+
   }
   
   
-}
+
 @media (max-width: 680px) {
   nav{
     position: fixed;
