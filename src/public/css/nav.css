@@ -117,13 +117,14 @@ nav a:hover {
 
   }
   
-  
+}
 
 @media (max-width: 680px) {
-  nav{
+  /* nav{
     position: fixed;
     z-index: 1;
-    /*FIX UP SIDEBAR*/
-  }
+    /FIX UP SIDEBAR/
+  } 
+  */
   
 }
