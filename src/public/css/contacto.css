@@ -31,6 +31,7 @@
     background-color: #4e859c;
     border-radius: 10px;
     text-decoration: none;
+    
       
 }
 .conteiner-contacto a:hover{
@@ -92,4 +93,26 @@
         font-size: 18px;
     }
     
+}
+@media(max-width:520px){
+  .conteiner-contacto .card{
+    width: 80%;
+  }
+  .conteiner-contacto .card label{
+    font-size: 15px;
+  }
+  .conteiner-contacto .card button{
+    font-size: 15px;
+  }
+  .conteiner-contacto p{
+    font-size: 15px;
+    
+  }
+  .conteiner-contacto a{
+    font-size: 15px;
+    width: 150px;
+    
+  }
+  
+
 }
