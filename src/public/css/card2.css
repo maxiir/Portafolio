@@ -73,3 +73,37 @@
     }  
    
 }
+@media (max-width:680px){
+        
+    .conteiner-card2 h2{
+        font-size: 25px;
+    }
+    .conteiner-card2 .card{
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 100px 100px 100px 100px;
+    }
+    
+}
+@media (max-width:530px){
+    .conteiner-card2 .card i{
+        font-size: 40px;
+    }
+}
+@media (max-width:450px){
+    .conteiner-card2 .card i{
+        font-size: 30px;
+    }
+    .conteiner-card2 .card p{
+        
+        transform: translate(0px, -80px);
+    }
+}
+@media (max-width:400px){ /*TERMINAR*/
+    .conteiner-card2 .card i{
+        font-size: 30px;
+    }
+    .conteiner-card2 .card p{
+        
+        transform: translate(0px, -80px);
+    }
+}
